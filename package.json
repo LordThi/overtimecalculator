@@ -16,6 +16,7 @@
     "@babel/preset-env": "*",
     "@babel/preset-react": "*",
     "babel-loader": "*",
+    "babel-plugin-formatjs": "^10.5.3",
     "bundle-stats-webpack-plugin": "*",
     "clean-webpack-plugin": "*",
     "copy-webpack-plugin": "*",
@@ -50,7 +51,8 @@
   },
   "dependencies": {
     "prop-types": "*",
-    "react": "*",
-    "react-dom": "*"
+    "react": "^18.2.0",
+    "react-dom": "*",
+    "react-intl": "^6.4.4"
   }
 }
