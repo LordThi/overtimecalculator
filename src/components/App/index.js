@@ -1,12 +1,11 @@
-// == Import
-import reactLogo from './react-logo.svg';
-import './styles.css';
+import './styles.scss';
 
+import Table from 'src/components/Table/Table';
 // == Composant
 function App() {
   return (
     <div className="app">
-      Hello Sir
+      <Table />
     </div>
   );
 }
