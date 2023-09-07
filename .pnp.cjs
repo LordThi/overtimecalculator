@@ -60,6 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:18.2.0"],\
+            ["react-flatpickr", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:3.10.13"],\
             ["react-intl", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:6.4.4"],\
             ["resolve-url-loader", "npm:5.0.0"],\
             ["sass", "npm:1.66.1"],\
@@ -7195,6 +7196,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["flatpickr", [\
+        ["npm:4.6.13", {\
+          "packageLocation": "./.yarn/cache/flatpickr-npm-4.6.13-06399933fc-2cca1b8dc9.zip/node_modules/flatpickr/",\
+          "packageDependencies": [\
+            ["flatpickr", "npm:4.6.13"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["flatted", [\
         ["npm:3.2.7", {\
           "packageLocation": "./.yarn/cache/flatted-npm-3.2.7-0da10b7c56-427633049d.zip/node_modules/flatted/",\
@@ -11595,6 +11605,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-flatpickr", [\
+        ["npm:3.10.13", {\
+          "packageLocation": "./.yarn/cache/react-flatpickr-npm-3.10.13-7b7e315610-d84c24c8ef.zip/node_modules/react-flatpickr/",\
+          "packageDependencies": [\
+            ["react-flatpickr", "npm:3.10.13"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:3.10.13", {\
+          "packageLocation": "./.yarn/__virtual__/react-flatpickr-virtual-f1775edb17/0/cache/react-flatpickr-npm-3.10.13-7b7e315610-d84c24c8ef.zip/node_modules/react-flatpickr/",\
+          "packageDependencies": [\
+            ["react-flatpickr", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:3.10.13"],\
+            ["@types/react", null],\
+            ["flatpickr", "npm:4.6.13"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-intl", [\
         ["npm:6.4.4", {\
           "packageLocation": "./.yarn/cache/react-intl-npm-6.4.4-5d775191b5-c7003ff492.zip/node_modules/react-intl/",\
@@ -11675,6 +11709,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:18.2.0"],\
+            ["react-flatpickr", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:3.10.13"],\
             ["react-intl", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:6.4.4"],\
             ["resolve-url-loader", "npm:5.0.0"],\
             ["sass", "npm:1.66.1"],\

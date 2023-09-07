@@ -54,6 +54,7 @@
     "prop-types": "*",
     "react": "^18.2.0",
     "react-dom": "*",
+    "react-flatpickr": "^3.10.13",
     "react-intl": "^6.4.4"
   }
 }

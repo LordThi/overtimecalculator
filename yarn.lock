@@ -5041,6 +5041,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"flatpickr@npm:^4.6.2":
+  version: 4.6.13
+  resolution: "flatpickr@npm:4.6.13"
+  checksum: 2cca1b8dc974e7673b51174ee3f0679ae3a6b79525a0c53bf49b87455ef358354e64acfd60b312e44cef208aab9750a1a48df32a0914046a53de6d9403742304
+  languageName: node
+  linkType: hard
+
 "flatted@npm:^3.1.0":
   version: 3.2.7
   resolution: "flatted@npm:3.2.7"
@@ -8171,7 +8178,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:*, prop-types@npm:^15.8.1":
+"prop-types@npm:*, prop-types@npm:^15.5.10, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -8267,6 +8274,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-flatpickr@npm:^3.10.13":
+  version: 3.10.13
+  resolution: "react-flatpickr@npm:3.10.13"
+  dependencies:
+    flatpickr: ^4.6.2
+    prop-types: ^15.5.10
+  peerDependencies:
+    react: "*"
+  checksum: d84c24c8efd6b921895d02ae9a77183bd3b101614d5bdeba17705519bbe85e62e9b4abb341bc7345c7804e0a435a6464b886572ef1d69b848590ce89816867f8
+  languageName: node
+  linkType: hard
+
 "react-intl@npm:^6.4.4":
   version: 6.4.4
   resolution: "react-intl@npm:6.4.4"
@@ -8334,6 +8353,7 @@ __metadata:
     prop-types: "*"
     react: ^18.2.0
     react-dom: "*"
+    react-flatpickr: ^3.10.13
     react-intl: ^6.4.4
     resolve-url-loader: "*"
     sass: ^1.66.1
